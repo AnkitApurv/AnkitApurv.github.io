@@ -5,9 +5,7 @@ title: "Ankit Apurv's Blog"
 description: [A short description of your site's purpose]
 
 url: "https://ankitapurv.github.io"
-permalink: /:categories/:year/:month/:day/:title/
 
 markdown: GFM
 
-exclude:
-    README.md
+exclude: ["README.md"]
