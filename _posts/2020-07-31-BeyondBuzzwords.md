@@ -7,13 +7,6 @@ title: "Data Science, Artificial Intelligence and Machine Learning - Beyond Buzz
 
 ## Data Science, Artificial Intelligence and Machine Learning
 
-<sup><sub>
-Posted: 31st July, 2020, 18:10 UTC+5:30  
-Updates:  
-1.01: 31st July, 2020, 22:00 UTC+5:30: Spelling and grammar.  
-1.02: 01st August, 2020, 12:16 UTC+5:30: Fixed TOC links.   
-</sup></sub>
-
 This post is meant to be a non-technical introduction to the field for people who either:
 
 1. Are laymen who want to know beyond the buzzwords.
@@ -23,7 +16,7 @@ This post is meant to be a non-technical introduction to the field for people wh
 __Disclaimer__: Now, I'll admit that I'm not someone with years and years of experience in the field, on the contrary, I started learning about aspects of the field one year ago, so I'm leaving breadcrumbs for the likes of an year younger me.
 
 Moving on...
-
+<!--end-excerpt-->
 ### Table of Contents
 1. [Data Science](#what-is-data-science)
 2. [Data Analysis](#what-is-data-analysis)
@@ -103,8 +96,11 @@ Other part of machine learning is _Shallow Learning_ referring to models based o
 #### Big Data
 
 Big data refers to massive data processing system which have far surpassed regular data storage system in terms of:
+
 1. How much data the system receives in a unit time (few megabytes/second vs. 10s of gigabytes/second).
+
 2. How much data the system stores (10-1000 gigabytes vs 100s of terabytes).
+
 3. How much data the system can process through in a unit time (1-10 gigabytes/second vs 1000s of gigabytes/second).
 
 _How it's related to Data Science, Artificial Intelligence or Machine Learning?_
@@ -113,3 +109,10 @@ As we have seen above, Data Science, AI and ML need data to work, lots of it. An
 
 #### _Wrapping up_
 For people who want to learn more, there's a great Coursera course [AI for Everyone](https://www.coursera.org/learn/ai-for-everyone) by Andrew Ng. It consists of 4 hours of video lectures divided into four sections with quizzes. I found it very helpful to get a strong non-technical understanding of the field.
+
+<sup><sub>
+Posted: 31st July, 2020, 18:10 UTC+5:30  
+Updates:  
+1.01: 31st July, 2020, 22:00 UTC+5:30: Spelling and grammar.  
+1.02: 01st August, 2020, 12:16 UTC+5:30: Fixed TOC links.   
+</sub></sup>

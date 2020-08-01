@@ -6,6 +6,11 @@ description: "Explore, Tinker, Be Curious..."
 
 url: "https://ankitapurv.github.io"
 
-markdown: GFM
+excerpt_separator: <!--end-excerpt-->
+
+markdown: kramdown
+
+kramdown:
+    input: GFM
 
 exclude: ["README.md"]
