@@ -1,7 +1,7 @@
 ---
 layout: default
-categories: ["Data Science"]
-permalink: /:slugified_categories/:title
+categories: "DataScience"
+permalink: /:categories/:title
 title: "Data Science, Artificial Intelligence and Machine Learning - Beyond Buzzwords"
 ---
 
