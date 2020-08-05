@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "AboutMe"
-permalink: /:title
+title: "About Me"
+permalink: /AboutMe
 ---
 
 # Am, Always have been, Always will be...
