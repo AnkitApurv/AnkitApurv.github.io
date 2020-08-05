@@ -2,3 +2,17 @@
 ---
 
 @import "{{ site.theme }}";
+/*
+#search-container {
+    display: inline-flexbox;
+}
+*/
+#results-container {
+    display: block;
+    list-style-type: none;
+    color: whitesmoke;
+}
+
+#results-container a:link, #results-container a:visited, #results-container a:hover {
+    color: whitesmoke;
+}

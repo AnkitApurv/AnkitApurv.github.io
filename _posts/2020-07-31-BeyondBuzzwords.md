@@ -12,11 +12,11 @@ This post is meant to be a non-technical introduction to the field for people wh
 1. Are laymen who want to know beyond the buzzwords.
 
 2. Want to start working in the field (or leverage it for their own field!) and are looking for 'where to begin?' point.
-
+<!--end-excerpt-->
 __Disclaimer__: Now, I'll admit that I'm not someone with years and years of experience in the field, on the contrary, I started learning about aspects of the field one year ago, so I'm leaving breadcrumbs for the likes of an year younger me.
 
 Moving on...
-<!--end-excerpt-->
+
 ### Table of Contents
 1. [Data Science](#what-is-data-science)
 2. [Data Analysis](#what-is-data-analysis)
