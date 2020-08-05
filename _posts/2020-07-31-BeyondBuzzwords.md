@@ -57,11 +57,11 @@ An __example__ for data analysis can be, given a person's credit card history, a
 
 We can think of AI as a software system which is capable of:
 
-1. __Learning__ via maintaining and updating it's knowledge base.(How music services learn over time about our likes and dislikes.)
+1. __Learning__ via maintaining and updating it's knowledge base. (How music services learn over time about our likes and dislikes.) (Predictive or Descriptive Analysis)
 
 _[Knowledge Base: store of facts, historical domain knowledge and inference.]_
 
-2. __Decision making__ via insight from Knowledge Base (Predictive or Descriptive Analysis)
+2. __Decision making__ via insight from Knowledge Base. (Searching and traversing through the Solution space, requires understanding of the Problem space.)
 
 3. __Problem solving__ via interaction with it's environment based on generated insight. (Self-driving cars, Spam email filtering, Digital Assistants)
 
@@ -115,4 +115,5 @@ Posted: 31st July, 2020, 18:10 UTC+5:30
 Updates:  
 1.01: 31st July, 2020, 22:00 UTC+5:30: Spelling and grammar.  
 1.02: 01st August, 2020, 12:16 UTC+5:30: Fixed TOC links.   
+1.03: 05th August, 2020, 12:41 UTC+5:30: AI definition.
 </sub></sup>
