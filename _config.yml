@@ -1,6 +1,8 @@
 theme: jekyll-theme-cayman
 show_downloads: "false"
 
+google_analytics: UA-177069571-1
+
 name: "Ankit Apurv's Blog"
 title: "Ankit Apurv's Blog"
 description: "Explore, Improve, Be Curious..."
