@@ -1,0 +1,6 @@
+name: env-blog
+channels:
+ - defaults
+ - conda-forge
+dependencies:
+ - mkdocs-material
