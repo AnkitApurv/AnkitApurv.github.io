@@ -12,7 +12,5 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material 
-      - run: mkdocs gh-deploy --force
-        with:
-          BRANCH: master
-          FOLDER: blog
+      - run: cd blog 
+      - run: mkdocs gh-deploy
