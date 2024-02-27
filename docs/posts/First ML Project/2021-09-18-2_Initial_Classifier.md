@@ -124,34 +124,23 @@ gridSearch = GridSearchCV(
 ```python
 gridSearch.fit(trainX, trainY.values.ravel())
 ```
-
-
-
+!!! example "Output"
 
     GridSearchCV(cv=5, estimator=DecisionTreeClassifier(random_state=39), n_jobs=-1,
-                 param_grid={'criterion': ['gini', 'entropy'],
-                             'max_depth': [2.875, 5.75, 11.5, 17.25, 23],
-                             'splitter': ['best', 'random']},
-                 refit='recall', return_train_score=True,
-                 scoring=['recall', 'accuracy', 'roc_auc'])
-
-
+        param_grid={'criterion': ['gini', 'entropy'],
+            'max_depth': [2.875, 5.75, 11.5, 17.25, 23],
+            'splitter': ['best', 'random']},
+        refit='recall', return_train_score=True,
+        scoring=['recall', 'accuracy', 'roc_auc'])
 
 
 ```python
 classifier = gridSearch.best_estimator_
-```
-
-
-```python
 gridSearch.best_estimator_
 ```
-
-
-
+!!! example "Output"
 
     DecisionTreeClassifier(max_depth=23, random_state=39)
-
 
 
 ## 4.b. Classification Result - Statistical
@@ -161,9 +150,8 @@ gridSearch.best_estimator_
 classifier.score(trainX, trainY)
 ```
 
-
-
-
+!!! example "Output"
+    
     0.9737333333333333
 
 
@@ -173,12 +161,9 @@ classifier.score(trainX, trainY)
 classifier.score(testX, testY)
 ```
 
-
-
+!!! example "Output"
 
     0.7461333333333333
-
-
 
 
 ```python
@@ -186,14 +171,16 @@ predictY = classifier.predict(testX)
 print(classification_report(testY, predictY))
 ```
 
-                  precision    recall  f1-score   support
-    
-           False       0.83      0.85      0.84      5841
-            True       0.42      0.39      0.41      1659
-    
-        accuracy                           0.75      7500
-       macro avg       0.63      0.62      0.62      7500
-    weighted avg       0.74      0.75      0.74      7500
+!!! example "Output"
+
+    |              | precision |   recall | f1-score |  support |
+    | -----------: | --------: | -------: | -------: | -------: |
+    |       False  |      0.83 |     0.85 |     0.84 |     5841 |
+    |        True  |      0.42 |     0.39 |     0.41 |     1659 |
+    | -----------: | --------: | -------: | -------: | -------: |
+    |    accuracy  |           |          |     0.75 |     7500 |
+    |   macro avg  |      0.63 |     0.62 |     0.62 |     7500 |
+    | weighted avg |      0.74 |     0.75 |     0.74 |     7500 |
     
     
 
@@ -202,12 +189,9 @@ print(classification_report(testY, predictY))
 roc_auc_score(testY, predictY)
 ```
 
-
-
+!!! example "Output"
 
     0.6201506900927627
-
-
 
 
 ```python
@@ -217,46 +201,12 @@ pandas.DataFrame(
     index=['Correct | Not Defaulter', 'Defaulter'])
 ```
 
+!!! example "Output"
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Predicted | Not Defaulter</th>
-      <th>Defaulter</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>Correct | Not Defaulter</th>
-      <td>4942</td>
-      <td>899</td>
-    </tr>
-    <tr>
-      <th>Defaulter</th>
-      <td>1005</td>
-      <td>654</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+    |                         | Predicted - Not Defaulter | Defaulter |
+    | :---------------------- | ------------------------: | --------: |
+    | Correct - Not Defaulter | 4942                      | 899       |
+    | Defaulter               | 1005                      | 654       |
 
 
 ## 4.c. Classification Result - Graphical
