@@ -1,3 +1,0 @@
-# Welcome
-
-Explore, Improve, Be Curious...
