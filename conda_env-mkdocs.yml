@@ -1,0 +1,9 @@
+name: env-mkdocs
+channels:
+  - defaults
+dependencies:
+  - pip
+  - pip:
+    - mkdocs-material
+    - mkdocs-glightbox
+    - mkdocs-exclude
