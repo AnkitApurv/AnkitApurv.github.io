@@ -1,6 +1,8 @@
 name: env-blog
 channels:
- - defaults
- - conda-forge
+  - defaults
+  - conda-forge
 dependencies:
- - mkdocs-material
+  - mkdocs-material
+  - mkdocs-glightbox
+  - mkdocs-exclude
