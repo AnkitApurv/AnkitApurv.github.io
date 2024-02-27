@@ -126,21 +126,26 @@ gridSearch.fit(trainX, trainY.values.ravel())
 ```
 !!! example "Output"
 
+    ```python
     GridSearchCV(cv=5, estimator=DecisionTreeClassifier(random_state=39), n_jobs=-1,
         param_grid={'criterion': ['gini', 'entropy'],
             'max_depth': [2.875, 5.75, 11.5, 17.25, 23],
             'splitter': ['best', 'random']},
         refit='recall', return_train_score=True,
         scoring=['recall', 'accuracy', 'roc_auc'])
+    ```
 
 
 ```python
 classifier = gridSearch.best_estimator_
 gridSearch.best_estimator_
 ```
+
 !!! example "Output"
 
+    ```python
     DecisionTreeClassifier(max_depth=23, random_state=39)
+    ```
 
 
 ## 4.b. Classification Result - Statistical
@@ -177,7 +182,7 @@ print(classification_report(testY, predictY))
     | -----------: | --------: | -------: | -------: | -------: |
     |       False  |      0.83 |     0.85 |     0.84 |     5841 |
     |        True  |      0.42 |     0.39 |     0.41 |     1659 |
-    | -----------: | --------: | -------: | -------: | -------: |
+    |              |           |          |          |          |
     |    accuracy  |           |          |     0.75 |     7500 |
     |   macro avg  |      0.63 |     0.62 |     0.62 |     7500 |
     | weighted avg |      0.74 |     0.75 |     0.74 |     7500 |
