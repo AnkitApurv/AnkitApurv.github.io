@@ -1,7 +1,9 @@
 site_name: "Ankit Apurv's Blog"
+
 theme:
   name: material
   language: en
+
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -17,6 +19,7 @@ theme:
     - header.autohide
     - content.tabs.link
     - content.tooltips
+
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
