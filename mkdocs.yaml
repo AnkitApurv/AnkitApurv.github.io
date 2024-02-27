@@ -19,6 +19,8 @@ theme:
     - header.autohide
     - content.tabs.link
     - content.tooltips
+    - content.code.copy
+    - content.code.annotate
 
   palette:
     # Palette toggle for automatic mode
