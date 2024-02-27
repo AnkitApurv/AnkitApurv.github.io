@@ -349,9 +349,9 @@ plot_learning_curve(estimator=classifier, title="Learning Curves", X=trainX, y=t
                     cv=5, scoring="balanced_accuracy", n_jobs=-1).show()
 ```
 
-
+!!! example "Output"
     
-![png](../images/2_Initial_Classifier/output_23_0.png)
+    ![png](./images/2_Initial_Classifier/output_23_0.png)
     
 
 

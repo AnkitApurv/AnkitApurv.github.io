@@ -476,7 +476,7 @@ plot_learning_curve(estimator=classifier, title="Learning Curves", X=trainX, y=t
 
 
     
-![png](../images/5_Final_Classifier/output_37_0.png)
+![png](./images/5_Final_Classifier/output_37_0.png)
     
 
 
