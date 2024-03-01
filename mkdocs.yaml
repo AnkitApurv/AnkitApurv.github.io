@@ -101,7 +101,7 @@ markdown_extensions:
 extra:
   analytics:
     provider: google
-    property: UA-177069571-1
+    property: G-LJ2D7RGDVM
   generator: true
   # alternate:
   #   - name: English
